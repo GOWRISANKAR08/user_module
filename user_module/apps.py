@@ -1,3 +1,6 @@
-# apps.py for user_module
+from django.apps import AppConfig
 
-pass
+class UserModuleConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'user_module'
+
